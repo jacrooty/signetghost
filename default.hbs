@@ -13,6 +13,8 @@
 
 	{{!-- Styles'n'Scripts --}}
 	<link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
+	<link rel="stylesheet" type="text/css" href="{{asset "css/custom.css"}}" />
+	<link rel="stylesheet" type="text/css" href="{{asset "css/bootstrap.min.css"}}" />
 
 	<script>
 			var siteUrl = '{{@site.url}}';
@@ -99,6 +101,8 @@
 
 	{{!-- Load basic scripts --}}
 	<script type="text/javascript" src="{{asset "js/script.js"}}"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="{{asset "js/bootstrap.min.js"}}"></script>
 
 	{{!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. --}}
 	{{{block "scripts"}}}

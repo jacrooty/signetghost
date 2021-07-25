@@ -1,0 +1,119 @@
+.top-header {
+  color: #02a9e6;
+  font-size: 1.7rem;
+}
+
+.margin-top-header {
+  margin-top: -6rem;
+}
+
+.margin-revert-2 {
+  margin-top: -2rem;
+}
+
+.img-size {
+  width: 46rem;
+  margin-top: -7rem;
+  margin-left: -10rem;
+}
+
+.custom-title {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+.subtitle1 {
+  font-size: 1.7rem;
+}
+
+.subtitle2 {
+  font-size: 3.4rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.subtitle3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.contents {
+  font-size: 1.4rem;
+}
+
+.color-blue {
+  border-color: #02a9e6 !important;
+}
+
+.flex-direction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.subscribe-btn {
+  border-radius: 3px;
+  padding: 0.5rem 1.5rem;
+  border-color: #02a9e6 !important;
+  background-color: #02a9e6 !important;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.row-direction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 11rem;
+}
+
+.img-bottom-size {
+  width: 23rem;
+  height: 18rem;
+}
+
+.bottom-layout {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid darkgray;
+  margin-top: 5rem;
+  background: black;
+  color: white;
+}
+
+.content1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.content2 {
+  font-size: 1.4rem;
+  color: darkgray;
+}
+
+.content3 {
+  font-size: 1.4rem;
+  color: orange;
+  margin-top: 1rem;
+}
+
+.margin-top-5 {
+  margin-top: 5rem;
+}
+
+.bottom-layout:hover {
+  cursor: pointer;
+}
