@@ -1,6 +1,7 @@
+{{#get "posts"}}
 {{#foreach posts visibility="all"}}
 
-<article class="{{post_class}} article-width" data-month="{{date format="MMMM YYYY"}}">
+<article class="{{post_class}}" data-month="{{date format="MMMM YYYY"}}">
 	<div class="inner">
 		<div class="box post-box">
 			<h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
@@ -17,3 +18,4 @@
 </article>
 
 {{/foreach}}
+{{/get}}

@@ -109,7 +109,7 @@ body {
 .bottom-layout {
   display: flex;
   justify-content: space-between;
-  border: 1px solid darkgray;
+  border: 2px solid #2d2f2e;
   margin-top: 5rem;
   background: black;
   color: white;
@@ -155,13 +155,13 @@ a:hover {
   text-decoration: none !important;
 }
 
-.container .post .post-box {
+.custom-post-box {
   border-bottom: none !important;
   padding-top: calc(0rem + 2vw) !important;
   padding-bottom: calc(0rem + 2vw) !important;
 }
 
-.inner {
+.custom-inner {
   padding: 0px !important;
 }
 
