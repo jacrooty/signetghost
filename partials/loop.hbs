@@ -1,25 +1,33 @@
 <div class="extra-pagination">
 	{{pagination}}
 </div>
-
+<div class="flex-article">
 {{#foreach posts visibility="all"}}
 
-<article class="{{post_class}}">
+<article class="{{post_class}} article-width" data-month="{{date format="MMMM YYYY"}}">
 	<div class="inner">
 		<div class="box post-box">
-			<h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
-			<span class="post-meta">
+			{{#if feature_image}}
+            <img class="u-object-fit"
+                srcset="{{> srcset}}"
+                sizes="(min-width: 576px) 160px, 90vw"
+                src="{{img_url feature_image size="m"}}"
+                alt="{{#if feature_image_alt}}{{feature_image_alt}}{{else}}{{title}}{{/if}}"
+                loading="lazy"
+            >
+      {{/if}}
+			<h2 class="post-title custom-blogtitle"><a href="{{url}}">{{{title}}}</a></h2>
+			{{!-- <span class="post-meta">
 				{{t "By"}}
 				{{authors separator=", "}}
 				{{#primary_tag}}{{t "in"}} <a class="post-meta-tag" href="{{url}}">{{name}}</a>{{/primary_tag}}
 				{{t "on"}}
 				<time datetime="{{date format='DD-MM-YYYY'}}">{{date format="DD MMM YYYY"}}</time>
-			</span>
+			</span> --}}
 			<p class="post-excerpt">{{excerpt}}&hellip;</p>
 		</div>
 	</div>
 </article>
 
 {{/foreach}}
-
-{{pagination}}
+</div>

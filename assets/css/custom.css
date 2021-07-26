@@ -1,3 +1,24 @@
+body {
+  color: white !important;
+  background-color: #232426 !important;
+}
+
+.nav-header li a:focus, .nav-header li a:hover {
+  color: white !important;
+}
+
+.nav-header li.active a {
+  color: white !important;
+}
+
+.blog-name {
+  color: white !important;
+}
+
+.post-title {
+  color: white !important;
+}
+
 .top-header {
   color: #02a9e6;
   font-size: 1.7rem;
@@ -115,4 +136,43 @@
 
 .bottom-layout:hover {
   cursor: pointer;
+}
+
+.flex-article {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  justify-content: space-between;
+}
+
+.u-object-fit {
+  width: 100% !important;
+}
+
+a:hover {
+  color: darkgray !important;
+  text-decoration: none !important;
+}
+
+.container .post .post-box {
+  border-bottom: none !important;
+  padding-top: calc(0rem + 2vw) !important;
+  padding-bottom: calc(0rem + 2vw) !important;
+}
+
+.inner {
+  padding: 0px !important;
+}
+
+.article-width {
+  width: 30%;
+}
+
+.custom-blogtitle {
+  font-size: 2.3em !important;
+  padding-top: 3rem !important;
+}
+
+.post-excerpt {
+  font-size: 1.5em !important;
 }
