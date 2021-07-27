@@ -176,6 +176,10 @@ a:hover {
 
 .post-excerpt {
   font-size: 1.5em !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+  height: 124px !important;
+  width: 100% !important;
 }
 
 .btn-text {
